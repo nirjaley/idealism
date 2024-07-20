@@ -1,0 +1,125 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f0;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    width: 25%;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+div.nav.middle {
+    width: 50%;
+}
+
+div.nav.middle ul{
+    display: flex;
+    padding-right:40px;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+div.nav.right {
+    width: 25%;
+}
+
+div.nav.right ul{
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+h1 span {
+    font-style: italic;
+}
+
+.about-us,
+.team-portion {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.about-us h2,
+.team-portion h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.about-us p {
+    margin-bottom: 0;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.T-member {
+    margin: 20px;
+    text-align: center;
+    max-width: 200px;
+}
+
+.T-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.T-member h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.T-member p {
+    font-size: 14px;
+    color: #777;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

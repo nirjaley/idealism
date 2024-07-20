@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f0;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    width: 25%;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+div.nav.middle {
+    width: 50%;
+}
+
+div.nav.middle ul{
+    display: flex;
+    padding-right:40px;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+div.nav.right {
+    width: 25%;
+}
+
+div.nav.right ul{
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h2 {
+    font-size: 36px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.featured-products h2{
+    line-height: 200px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    line-height: 0px;
+}
+
+.featured-products {
+    overflow: hidden;
+}
+
+.product {
+    width: calc(24% - 20px); 
+    margin: 0 10px 20px;
+    display: inline-block;
+    vertical-align: top; 
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product p {
+    margin-top: 10px;
+}
+
+.headphones h2{
+    line-height: 200px;
+    text-align: center;
+}
+
+.earbuds h2{
+    line-height: 200px;
+    text-align: center;
+}
+
+.featured-products{
+    text-align: center  ;
+}
+
+.get-now-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3d3d3f94; 
+    color: #fff; 
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+}
+
+.get-now-btn:hover {
+    background-color: #0056b3; 
+}
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img {
+    float: left;
+    width: 20%;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    500% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+#slider{
+    border-radius: 25px;
+}
+
+html{
+    scroll-behavior: smooth;
+} 
+
+TRANSITION 
+
+.btn{
+    transition: all 300ms ease;
+} 
+
+i {
+    width: 20px;
+    height: auto;
+}
+
+.formSubmitButton {
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.formSubmitButton:hover {
+    background-color: #fff;
+    color: #333;
+}

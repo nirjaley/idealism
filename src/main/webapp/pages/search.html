@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../stylesheets/search.css"> 
+    <title>Search for Products</title>
+    </head>
+<body>
+<header>
+        <h1 class="logo">Idealism</h1>
+        <div class="nav middle">
+            <ul> 
+                <li><a href="home.jsp">Home</a></li>
+                <li><a href="aboutus.jsp">About Us</a></li>
+                <li><a href="contact.jsp">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav right">
+            <ul>
+                <li><a href="cart.jsp"> <img src="../images/cart.png"></a></li>
+                <li><a href="search.jsp"> <img src="../images/search.png"></a></li>
+                <li><a href="userProfile.jsp"><img src="../images/user.png"></a></li>
+            </ul>
+        </div>
+    </header>
+    <h1>Search</h1>
+    <form action="/idealism/search-products" method="get"> <input type="text" name="query" placeholder="Search for products...">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
